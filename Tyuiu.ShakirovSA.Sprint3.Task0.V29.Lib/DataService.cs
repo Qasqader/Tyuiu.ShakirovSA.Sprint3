@@ -10,7 +10,7 @@ namespace Tyuiu.ShakirovSA.Sprint3.Task0.V29.Lib
             {
                 sum += Math.Pow(value, Math.Pow(2, i)) + (1.0 / (i + 1));
             }
-            sum = Math.Cos(value) * sum;
+            sum = Math.Cos(value) * sum + 0.15;
             return Math.Round(sum, 3);
 
         }
