@@ -7,7 +7,7 @@ internal class Program
         Console.WriteLine("***************************************************************************");
         Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
         Console.WriteLine("***************************************************************************");
-        double value = 0.55;
+        double value = 0.5;
         int startValue = 1;
         int stopValue = 10;
         Console.WriteLine("Перменная x = " + value);
