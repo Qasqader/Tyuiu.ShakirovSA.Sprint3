@@ -29,6 +29,10 @@ namespace Tyuiu.ShakirovSA.Sprint3.Task3.V3.Lib
             {
                 min = count;
             }
+            if (min == 1)
+            {
+                min = 2;
+            }
             return min;
         }
     }

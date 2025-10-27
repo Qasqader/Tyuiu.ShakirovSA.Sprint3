@@ -8,7 +8,7 @@ namespace Tyuiu.ShakirovSA.Sprint3.Task3.V3.Test
         public void TestMethod1()
         {
             string x = "cvbmzff orffgtrr dkfvfffdr";
-            int wait = 1;
+            int wait = 2;
             char item = 'f';
             DataService ds = new DataService();
             int res = ds.GetMinCharCount(x, item);
