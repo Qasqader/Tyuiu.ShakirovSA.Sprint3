@@ -11,7 +11,7 @@ namespace Tyuiu.ShakirovSA.Sprint3.Task2.V21.Test
             double x = 1.5;
             int y = 1;
             int z = 10;
-            double wait = 0.271;
+            double wait = 0.298;
             double res = ds.GetSumSeries(x, y, z);
             Assert.AreEqual(wait,res);
         }

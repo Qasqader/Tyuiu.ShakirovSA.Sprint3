@@ -11,7 +11,7 @@ namespace Tyuiu.ShakirovSA.Sprint3.Task2.V21.Lib
             {
                 
                 
-                double term =  Math.Pow(1 / (Math.Sin(i) + Math.Pow(2 * value, i)), i);
+                double term =  Math.Pow(1 / (Math.Sin(i) + 2 * Math.Pow (value, i)), i);
                 sum += term;
                 i++;
             }
